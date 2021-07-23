@@ -13,6 +13,33 @@ main {
     align-items: center;
   
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #562EFF;
+    padding: 15px;
+}
+nav .navber{
+    display: flex;
+    align-items: center;
+}
+.navber-idea a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.navber-home a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+.navber-profile img{
+    margin-left: 15px;
+}
 .top-playrer {
     margin-bottom: 30px;
 }
